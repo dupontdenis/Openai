@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test Chap</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="generatePromise.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <p>Exemple</p>
+  <label for="input">Question : </label>
+  <input type="text" name="input" id="input">
+  <button onclick="generateResponse()">Send</button>
+  <button onclick="reset()">Reset</button>
+
+  <div id="wait" style="display:none">Please wait</div>
+  <div id="output"></div>
+
+
+</body>
+
+</html>
